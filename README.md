@@ -26,7 +26,9 @@ def lambda_handler(event, context):
                 "lightsail:GetInstanceSnapshot",
                 "lightsail:GetAutoSnapshots",
                 "lightsail:GetInstanceSnapshots",
-                "lightsail:CreateInstanceSnapshot"
+                "lightsail:CreateInstanceSnapshot",
+                "lightsail:GetInstances",
+                "lightsail:GetInstance"
             ],
             "Resource": "*"
         }
