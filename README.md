@@ -23,12 +23,9 @@ def lambda_handler(event, context):
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
-                "lightsail:DeleteDiskSnapshot",
                 "lightsail:GetInstanceSnapshot",
-                "lightsail:DeleteInstanceSnapshot",
                 "lightsail:GetAutoSnapshots",
                 "lightsail:GetInstanceSnapshots",
-                "lightsail:DeleteAutoSnapshot",
                 "lightsail:CreateInstanceSnapshot"
             ],
             "Resource": "*"
